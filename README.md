@@ -4,19 +4,21 @@
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 $ yarn install
 
 # serve with hot reload at localhost:3000
 $ yarn run dev
 
-# build for production and launch server
-$ yarn run build
-$ yarn start
+# Deploy for API Gateway
+# build & deploy
 
-# generate static project
-$ yarn run generate
+$ yarn deploy:api_gw
+
+# Remove service
+
+$ yarn delete
 ```
 
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
